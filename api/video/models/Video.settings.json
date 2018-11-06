@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "video",
   "info": {
     "name": "video",
     "description": ""
@@ -12,6 +12,15 @@
     "Title": {
       "default": "",
       "type": "string"
+    },
+    "channels": {
+      "collection": "channel",
+      "via": "videos",
+      "dominant": true
+    },
+    "tags": {
+      "model": "tags",
+      "via": "videos"
     }
   }
 }

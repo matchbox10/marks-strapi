@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "tags",
   "info": {
-    "name": "channel",
+    "name": "tags",
     "description": ""
   },
   "options": {
@@ -15,7 +15,7 @@
     },
     "videos": {
       "collection": "video",
-      "via": "channels"
+      "via": "tags"
     }
   }
 }
